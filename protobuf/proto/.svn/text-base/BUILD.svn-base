@@ -1,0 +1,5 @@
+proto_library(name = 'addressbook_proto',
+               srcs = ['addressbook.proto',],
+             gen_cpp = '1',
+             #gen_java = '1',
+             )
