@@ -1,10 +1,11 @@
 // Copyright (c) 2013, The Toft Authors. All rights reserved.
 // Author: Ye Shunping <yeshunping@gmail.com>
 
+#include "toft/base/benchmark.h"
 #include "toft/crypto/hash/md5.h"
 #include "toft/hash/hash.h"
+
 #include "thirdparty/glog/logging.h"
-#include "thirdparty/re2/util/benchmark.h"
 
 static void Hash(int n) {
     std::string str = "aaaaaaaaaaaaaaaaaa";
